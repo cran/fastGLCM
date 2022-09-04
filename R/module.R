@@ -260,7 +260,7 @@ fastGLCM_Rcpp = function(data,
 #' names(lst_glcm_py)[6] = 'ASM'
 #'
 #' lst_glcm_py = append(lst_glcm_py, list(lst_glcm_py[['ASM_Energy']][[2]]), after = 6)
-#' names(lst_glcm_py)[7] = 'Energy'
+#' names(lst_glcm_py)[7] = 'energy'
 #'
 #' lst_glcm_py[['ASM_Energy']] = NULL
 #'
