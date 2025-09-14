@@ -1,10 +1,9 @@
 Package: fastGLCM
 Type: Package
 Title: 'GLCM' Texture Features
-Version: 1.0.2
-Date: 2022-09-25
-Authors@R: c( person("Lampros", "Mouselimis", email = "mouselimislampros@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "https://orcid.org/0000-0002-8024-1546")), person("Takahiro", "Toizumi", role = "cph", comment = "Author of the fastGLCM Python code") )
-Maintainer: Lampros Mouselimis <mouselimislampros@gmail.com>
+Version: 1.0.3
+Date: 2025-09-14
+Authors@R: c( person("Lampros", "Mouselimis", email = "mouselimislampros@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-8024-1546")), person("Takahiro", "Toizumi", role = "cph", comment = "Author of the fastGLCM Python code") )
 BugReports: https://github.com/mlampros/fastGLCM/issues
 URL: https://github.com/mlampros/fastGLCM
 Description: Two 'Gray Level Co-occurrence Matrix' ('GLCM') implementations are included: The first is a fast 'GLCM' feature texture computation based on 'Python' 'Numpy' arrays ('Github' Repository, <https://github.com/tzm030329/GLCM>). The second is a fast 'GLCM' 'RcppArmadillo' implementation which is parallelized (using 'OpenMP') with the option to return all 'GLCM' features at once. For more information, see "Artifact-Free Thin Cloud Removal Using Gans" by Toizumi Takahiro, Zini Simone, Sagi Kazutoshi, Kaneko Eiji, Tsukada Masato, Schettini Raimondo (2019), IEEE International Conference on Image Processing (ICIP), pp. 3596-3600, <doi:10.1109/ICIP.2019.8803652>.
@@ -24,12 +23,14 @@ Imports: Rcpp (>= 1.0.8.3), R6, rlang, OpenImageR, utils
 LinkingTo: Rcpp, RcppArmadillo, OpenImageR
 Suggests: reticulate, covr, knitr, rmarkdown, testthat (>= 3.0.0)
 Encoding: UTF-8
-RoxygenNote: 7.2.1
+RoxygenNote: 7.3.2
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 NeedsCompilation: yes
-Packaged: 2022-09-25 17:30:02 UTC; lampros
-Author: Lampros Mouselimis [aut, cre] (<https://orcid.org/0000-0002-8024-1546>),
+Packaged: 2025-09-14 17:05:56 UTC; lampros
+Author: Lampros Mouselimis [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-8024-1546>),
   Takahiro Toizumi [cph] (Author of the fastGLCM Python code)
+Maintainer: Lampros Mouselimis <mouselimislampros@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-09-25 17:50:09 UTC
+Date/Publication: 2025-09-14 17:30:02 UTC

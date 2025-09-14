@@ -1,4 +1,4 @@
-## ---- include = FALSE---------------------------------------------------------
+## ----include = FALSE----------------------------------------------------------
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -64,11 +64,11 @@ if (file.exists(path_extracted)) file.remove(path_extracted)
 str(res_glcm)
 
 
-## ---- eval = FALSE------------------------------------------------------------
-#  
-#  plot_multi_images(list_images = res_glcm,
-#                    par_ROWS = 2,
-#                    par_COLS = 5,
-#                    titles = methods)
-#  
+## ----eval = FALSE-------------------------------------------------------------
+# 
+# plot_multi_images(list_images = res_glcm,
+#                   par_ROWS = 2,
+#                   par_COLS = 5,
+#                   titles = methods)
+# 
 
